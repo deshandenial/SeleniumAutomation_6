@@ -65,7 +65,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>delMonteRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
