@@ -1,0 +1,29 @@
+# Created at 2021-09-22T21:39:04.126
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-09-22T21:39:30.591
+Unexpected IOException: 8,1,com.tbm.automation.LoginTest,beforeMethod(com.tbm.automation.LoginTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESHAN'\002C ip: '10.90.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_271'\000ADriver info: driver.version: Driver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESHAN'\002C ip: '10.90.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_271'\000ADriver info: driver.version: Driver,LoginTest>BaseClass.beforeMethod:25 \00BB UnreachableBrowser Could not start a new...,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESHAN'\002C ip: '10.90.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_271'\000ADriver info: driver.version: Driver\000ACaused by: java.io.IOException: unexpected end of stream on Connection{localhost:4444\002C proxy=DIRECT hostAddress=localhost/0:0:0:0:0:0:0:1:4444 cipherSuite=none protocol=http/1.1}\000ACaused by: java.io.EOFException: \005Cn not found: limit=0 content=\2026\000A
+
+
+# Created at 2021-09-22T21:39:30.599
+Unexpected IOException: 5,1,com.tbm.automation.LoginTest,test1(com.tbm.automation.LoginTest),com.tbm.automation.LoginTest,null,null
+
+
+# Created at 2021-09-22T21:39:30.600
+Unexpected IOException: 9,1,com.tbm.automation.LoginTest,test1(com.tbm.automation.LoginTest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESHAN'\002C ip: '10.90.0.67'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_271'\000ADriver info: driver.version: Driver,null
+
+
+# Created at 2021-09-22T21:39:30.602
+Unexpected IOException: 9,1,com.tbm.automation.LoginTest,afterMethod(com.tbm.automation.LoginTest),null,null,null
+
+
+# Created at 2021-09-22T21:39:31.132
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,com.tbm.automation.LoginTest,null,null,null
+
+
