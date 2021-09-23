@@ -8,7 +8,7 @@ import com.qa.enums.WaitStrategy;
 
 public final class LoginPage extends BasePage
 {
-	private final By buttonSignin = By.xpath("//a[normalize-space()='Log in']");
+	private final By buttonSignin = By.xpath("//a[@href='/signin']");
 	private final By textboxUsername = By.xpath("//input[@name='email']");
 	private final By textboxPasword = By.xpath("//input[@placeholder='Enter password']");
 	private final By buttonLogin = By.xpath("//button[normalize-space()='LOGIN']");
