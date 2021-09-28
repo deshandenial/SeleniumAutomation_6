@@ -8,7 +8,7 @@ public final class FrameworkConstant
 	
 	  private static final String RESOURCESPATH =
 	  System.getProperty("user.dir")+"/src/test/resources"; private static final
-	  String CHROMEDRIVER_PATH = RESOURCESPATH+"/drivers/chromedriver.exe";
+	  String CHROMEDRIVER_PATH = RESOURCESPATH+"/driver/chromedriver.exe";
 	 
 
 	private static final String CONFIG_FILE = RESOURCESPATH+"/config/config.properties";
