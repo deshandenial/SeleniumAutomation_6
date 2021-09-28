@@ -27,11 +27,7 @@ public final class Driver
 		{
 			
 			System.setProperty("webdriver.chrome.driver",FrameworkConstant.getChromeDriverPath());
-			ChromeOptions options = new ChromeOptions();
-			options.addArguments("--no-sandbox");
-			options.addArguments("--disable-dev-shm-usage");
-			
-			DriverManager.setDriver(new ChromeDriver(options));
+			DriverManager.setDriver(new ChromeDriver());
 			
 			/*
 			 * DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -41,6 +37,7 @@ public final class Driver
 			 * RemoteWebDriver(url,capabilities));
 			 */
 			DriverManager.getDriver().get(PropertiesUtils.get(ConfigProperties.URL));
+			DriverManager.getDriver().manage().window().maximize();
 		}
 	}
 	public static void tearDown()
