@@ -27,7 +27,11 @@ public final class Driver
 		{
 			
 			System.setProperty("webdriver.chrome.driver",FrameworkConstant.getChromeDriverPath());
-			DriverManager.setDriver(new ChromeDriver());
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--no-sandbox");
+			options.addArguments("--disable-dev-shm-usage");
+			
+			DriverManager.setDriver(new ChromeDriver(options));
 			
 			/*
 			 * DesiredCapabilities capabilities = new DesiredCapabilities();
